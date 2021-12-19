@@ -59,3 +59,4 @@ C:\Users\mertb\source\repos\RetailStoreDiscounts\RetailStoreDiscounts\obj\Debug\
 C:\Users\mertb\source\repos\RetailStoreDiscounts\RetailStoreDiscounts\obj\Debug\net6.0\ref\RetailStoreDiscounts.dll
 C:\Users\mertb\source\repos\RetailStoreDiscounts\RetailStoreDiscounts\obj\Debug\net6.0\RetailStoreDiscounts.pdb
 C:\Users\mertb\source\repos\RetailStoreDiscounts\RetailStoreDiscounts\obj\Debug\net6.0\RetailStoreDiscounts.genruntimeconfig.cache
+C:\Users\mertb\source\repos\RetailStoreDiscounts\RetailStoreDiscounts\obj\Debug\net6.0\RetailStoreDiscounts.csproj.AssemblyReference.cache

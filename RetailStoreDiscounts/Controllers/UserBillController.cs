@@ -4,6 +4,7 @@ using RetailStoreDiscounts.Domain.Interfaces;
 using RetailStoreDiscounts.Domain.Model;
 using RetailStoreDiscounts.Domain.Request;
 using RetailStoreDiscounts.Domain.Responses;
+using RetailStoreDiscounts.Extension;
 
 namespace RetailStoreDiscounts.Controllers
 {
@@ -16,26 +17,24 @@ namespace RetailStoreDiscounts.Controllers
         {
             this.userBillService = userBillService;
         }
-        [HttpGet]
+        [HttpPost]
         public async Task<IActionResult> GetBill(UserBillRequest userBillRequest)
         {
-            //User user = new User();
-            //user.Name = userBillRequest.user.Name;
-            //user.Type = userBillRequest.UserType;
-            //user.Surname = userBillRequest.Surname;
-
-            //Product product = new Product();
-            //product.Category= userBillRequest.Category;
-            //product.Price = userBillRequest.Price;
-
-            UserBillResponse userBillResponse = await userBillService.GetBill(userBillRequest.user, userBillRequest.productList);
-            if (userBillResponse.Success)
+            if (!ModelState.IsValid)
             {
-                return Ok(userBillResponse);
+                return BadRequest(ModelState.GetErrorMessages());
             }
             else
             {
-                return BadRequest(userBillResponse.Message);
+                UserBillResponse userBillResponse = await userBillService.GetBill(userBillRequest.userId, userBillRequest.productIdList);
+                if (userBillResponse.Success)
+                {
+                    return Ok(userBillResponse);
+                }
+                else
+                {
+                    return BadRequest(userBillResponse.Message);
+                }
             }
         }
     }

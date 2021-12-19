@@ -568,6 +568,7 @@
           }
         }
       },
+      "MSBuild.SonarQube.Runner.Tool/4.8.0": {},
       "MSTest.TestAdapter/2.2.7": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -726,6 +727,7 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "SonarQube.Scanner.DotNetCore.Tool/4.3.1": {},
       "Swashbuckle.AspNetCore/6.2.3": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -1486,7 +1488,9 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
+          "MSBuild.SonarQube.Runner.Tool": "4.8.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "SonarQube.Scanner.DotNetCore.Tool": "4.3.1",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -1760,6 +1764,13 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "MSBuild.SonarQube.Runner.Tool/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GhjJAK7swEr+tExlJIDQLwx6zu8HV+hzeUmCR3bymbe3RzkuttkaeaOQ8c6T7warxI6yK8LSZXBpiu2ENEHuQA==",
+      "path": "msbuild.sonarqube.runner.tool/4.8.0",
+      "hashPath": "msbuild.sonarqube.runner.tool.4.8.0.nupkg.sha512"
+    },
     "MSTest.TestAdapter/2.2.7": {
       "type": "package",
       "serviceable": true,
@@ -1906,6 +1917,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "SonarQube.Scanner.DotNetCore.Tool/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i6DdavxI8ehADW9pargo6a5lfKBm/ELXqjC9lTb0wYvwxGz0BNUFeE7U4EPr6nWyBqje6aJM+GwzXeDOtJKv7g==",
+      "path": "sonarqube.scanner.dotnetcore.tool/4.3.1",
+      "hashPath": "sonarqube.scanner.dotnetcore.tool.4.3.1.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.2.3": {
       "type": "package",

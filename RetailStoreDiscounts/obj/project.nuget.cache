@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "T06yRsSoyaowyvIdbeO/oxVqTDhkt2PlyfF97+3hzdp0R06oxcbYYB0OPoyGOSYzmVmoXYNNNsDZGhJejUVh+Q==",
+  "dgSpecHash": "nWVK/jN8cP7yfjEp/mWVFyw8USZbyB3MJuB0CcG62kUA45XkdfI5QZrulNZdNa2hAcSwsK4MGodJ4R2EzFgjrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mertb\\source\\repos\\RetailStoreDiscounts\\RetailStoreDiscounts\\RetailStoreDiscounts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mertb\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\mertb\\.nuget\\packages\\docfx.plugins.plantuml\\1.1.24\\docfx.plugins.plantuml.1.1.24.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -37,6 +38,8 @@
     "C:\\Users\\mertb\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\mertb\\.nuget\\packages\\msbuild.sonarqube.runner.tool\\4.8.0\\msbuild.sonarqube.runner.tool.4.8.0.nupkg.sha512",
+    "C:\\Users\\mertb\\.nuget\\packages\\sonarqube.scanner.dotnetcore.tool\\4.3.1\\sonarqube.scanner.dotnetcore.tool.4.3.1.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\mertb\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

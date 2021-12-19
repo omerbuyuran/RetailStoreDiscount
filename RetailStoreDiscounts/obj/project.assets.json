@@ -29,6 +29,12 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "DocFx.Plugins.PlantUml/1.1.24": {
+        "type": "package",
+        "build": {
+          "build/DocFx.Plugins.PlantUml.targets": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -453,6 +459,12 @@
           }
         }
       },
+      "MSBuild.SonarQube.Runner.Tool/4.8.0": {
+        "type": "package"
+      },
+      "SonarQube.Scanner.DotNetCore.Tool/4.3.1": {
+        "type": "package"
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -769,6 +781,20 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "DocFx.Plugins.PlantUml/1.1.24": {
+      "sha512": "41R/b2ab9c0Bm/lE4lRWMW5jDxrjOdiQp0vak/LjYZcE9iBubW5mPBCpIxOHKpZEDVjFpBw3KE9D3StGNIyi2g==",
+      "type": "package",
+      "path": "docfx.plugins.plantuml/1.1.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/DocFx.Plugins.PlantUml.targets",
+        "docfx.plugins.plantuml.1.1.24.nupkg.sha512",
+        "docfx.plugins.plantuml.nuspec",
+        "template/plugins/DocFx.Plugins.PlantUml.dll",
+        "template/plugins/PlantUml.Net.dll"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -1548,6 +1574,107 @@
         "version.txt"
       ]
     },
+    "MSBuild.SonarQube.Runner.Tool/4.8.0": {
+      "sha512": "GhjJAK7swEr+tExlJIDQLwx6zu8HV+hzeUmCR3bymbe3RzkuttkaeaOQ8c6T7warxI6yK8LSZXBpiu2ENEHuQA==",
+      "type": "package",
+      "path": "msbuild.sonarqube.runner.tool/4.8.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "msbuild.sonarqube.runner.tool.4.8.0.nupkg.sha512",
+        "msbuild.sonarqube.runner.tool.nuspec",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/MSBuild.SonarQube.Runner.exe",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/Newtonsoft.Json.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarQube.Analysis.xml",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarQube.Scanner.MSBuild.exe",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarScanner.MSBuild.Common.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarScanner.MSBuild.Shim.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarScanner.MSBuild.TFS.Classic.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarScanner.MSBuild.TFS.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarScanner.MSBuild.Tasks.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/SonarScanner.MSBuild.exe",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/System.ValueTuple.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/Targets/SonarQube.Integration.targets",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/sonar-scanner-4.2.0.1873/bin/sonar-scanner",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug.bat",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/sonar-scanner-4.2.0.1873/bin/sonar-scanner.bat",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/sonar-scanner-4.2.0.1873/conf/sonar-scanner.properties",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-net46/sonar-scanner-4.2.0.1873/lib/sonar-scanner-cli-4.2.0.1873.jar",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/Newtonsoft.Json.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarQube.Analysis.xml",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarScanner.MSBuild.Common.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarScanner.MSBuild.Shim.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarScanner.MSBuild.TFS.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarScanner.MSBuild.Tasks.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarScanner.MSBuild.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/SonarScanner.MSBuild.runtimeconfig.json",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/Targets/SonarQube.Integration.targets",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/sonar-scanner-4.2.0.1873/bin/sonar-scanner",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug.bat",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/sonar-scanner-4.2.0.1873/bin/sonar-scanner.bat",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/sonar-scanner-4.2.0.1873/conf/sonar-scanner.properties",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp2.0/sonar-scanner-4.2.0.1873/lib/sonar-scanner-cli-4.2.0.1873.jar",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/Newtonsoft.Json.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarQube.Analysis.xml",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarScanner.MSBuild.Common.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarScanner.MSBuild.Shim.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarScanner.MSBuild.TFS.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarScanner.MSBuild.Tasks.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarScanner.MSBuild.dll",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/SonarScanner.MSBuild.runtimeconfig.json",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/Targets/SonarQube.Integration.targets",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/sonar-scanner-4.2.0.1873/bin/sonar-scanner",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug.bat",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/sonar-scanner-4.2.0.1873/bin/sonar-scanner.bat",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/sonar-scanner-4.2.0.1873/conf/sonar-scanner.properties",
+        "tools/sonar-scanner-msbuild-4.8.0.12008-netcoreapp3.0/sonar-scanner-4.2.0.1873/lib/sonar-scanner-cli-4.2.0.1873.jar"
+      ]
+    },
+    "SonarQube.Scanner.DotNetCore.Tool/4.3.1": {
+      "sha512": "i6DdavxI8ehADW9pargo6a5lfKBm/ELXqjC9lTb0wYvwxGz0BNUFeE7U4EPr6nWyBqje6aJM+GwzXeDOtJKv7g==",
+      "type": "package",
+      "path": "sonarqube.scanner.dotnetcore.tool/4.3.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "sonarqube.scanner.dotnetcore.tool.4.3.1.nupkg.sha512",
+        "sonarqube.scanner.dotnetcore.tool.nuspec",
+        "tools/Newtonsoft.Json.dll",
+        "tools/SonarQube.Analysis.xml",
+        "tools/SonarScanner.MSBuild.Common.dll",
+        "tools/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/SonarScanner.MSBuild.Shim.dll",
+        "tools/SonarScanner.MSBuild.TFS.dll",
+        "tools/SonarScanner.MSBuild.Tasks.dll",
+        "tools/SonarScanner.MSBuild.dll",
+        "tools/SonarScanner.MSBuild.runtimeconfig.json",
+        "tools/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/Targets/SonarQube.Integration.targets",
+        "tools/sonar-scanner-3.2.0.1227/bin/sonar-scanner",
+        "tools/sonar-scanner-3.2.0.1227/bin/sonar-scanner-debug",
+        "tools/sonar-scanner-3.2.0.1227/bin/sonar-scanner-debug.bat",
+        "tools/sonar-scanner-3.2.0.1227/bin/sonar-scanner.bat",
+        "tools/sonar-scanner-3.2.0.1227/conf/sonar-scanner.properties",
+        "tools/sonar-scanner-3.2.0.1227/lib/sonar-scanner-cli-3.2.0.1227.jar"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -2172,8 +2299,11 @@
     "net6.0": [
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "DocFx.Plugins.PlantUml >= 1.1.24",
+      "MSBuild.SonarQube.Runner.Tool >= 4.8.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
+      "SonarQube.Scanner.DotNetCore.Tool >= 4.3.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2228,6 +2358,14 @@
             "target": "Package",
             "version": "[8.1.1, )"
           },
+          "DocFx.Plugins.PlantUml": {
+            "target": "Package",
+            "version": "[1.1.24, )"
+          },
+          "MSBuild.SonarQube.Runner.Tool": {
+            "target": "Package",
+            "version": "[4.8.0, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.1, )"
@@ -2237,6 +2375,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.1, )"
+          },
+          "SonarQube.Scanner.DotNetCore.Tool": {
+            "target": "Package",
+            "version": "[4.3.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

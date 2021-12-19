@@ -21,6 +21,8 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\mertb\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgSonarQube_Scanner_DotNetCore_Tool Condition=" '$(PkgSonarQube_Scanner_DotNetCore_Tool)' == '' ">C:\Users\mertb\.nuget\packages\sonarqube.scanner.dotnetcore.tool\4.3.1</PkgSonarQube_Scanner_DotNetCore_Tool>
+    <PkgMSBuild_SonarQube_Runner_Tool Condition=" '$(PkgMSBuild_SonarQube_Runner_Tool)' == '' ">C:\Users\mertb\.nuget\packages\msbuild.sonarqube.runner.tool\4.8.0</PkgMSBuild_SonarQube_Runner_Tool>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\mertb\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
   </PropertyGroup>
 </Project>

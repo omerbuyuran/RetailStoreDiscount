@@ -6,13 +6,13 @@
    4.	For every $100 on the bill, there would be a $ 5 discount (e.g. for $ 990, you get $ 45 as a discount).
    5.	The percentage based discounts do not apply on groceries.
    6.	A user can get only one of the percentage based discounts on a bill.
-#Install & Run
-Clone the Repository
-Create a db with using sql script.
-Change the ConnectionStrings in appsettings.json
-The app running on localhost:5265
-#Tooling
-Swagger - API documentation
-MSSQL - DB
-AutoMapper - Mapping framework
-EntityFramework
+# Install & Run
+   1. Clone the Repository
+   2. Create a db with using sql script.
+   3. Change the ConnectionStrings in appsettings.json
+   4. The app running on localhost:5265
+# Tooling
+1.	Swagger - API documentation
+2.	MSSQL - DB
+3.	AutoMapper - Mapping framework
+4.	EntityFramework
